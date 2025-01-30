@@ -29,10 +29,16 @@ DB_PASS=PASS
 DB_NAME=node
 ```
 
+## Set Environment
+```
+cd node_CRUD
+npm init -y
+npm install express mysql dotenv
+```
 
 ### Start the Server
 
-`node server.js`
+```node server.js```
 
 
 ### Manually test mysql connection
