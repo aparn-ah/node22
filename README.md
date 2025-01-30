@@ -1,11 +1,11 @@
-##CRUD-enabled Node.js app using Express and MySQL to manage a name list.
-###Features:
+## CRUD-enabled Node.js app using Express and MySQL to manage a name list.
+### Features:
 
-✅ Add a name
-✅ Get all names
-✅ Get a name by ID
-✅ Update a name
-✅ Delete a name
+✅ Add a name  
+✅ Get all names  
+✅ Get a name by ID  
+✅ Update a name  
+✅ Delete a name  
 
 To install Node.js on your system, use the following commands:
 
@@ -21,7 +21,7 @@ node -v
 npm -v
 ```
 
-###Change database host in database.env     
+### Change database host in database.env     
 ```
 DB_HOST=RDS_ENDPOINT
 DB_USER=USER
@@ -30,11 +30,11 @@ DB_NAME=node
 ```
 
 
-###Start the Server
+### Start the Server
 
 ``node server.js
 
 
-###Manually test mysql connection
+### Manually test mysql connection
 ```mysql -h database.cdu0wy4s26zn.ap-south-1.rds.amazonaws.com -u root -p
 
