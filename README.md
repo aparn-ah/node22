@@ -32,9 +32,9 @@ DB_NAME=node
 
 ### Start the Server
 
-``node server.js
+```node server.js```
 
 
 ### Manually test mysql connection
-``mysql -h database.cdu0wy4s26zn.ap-south-1.rds.amazonaws.com -u root -p
+```mysql -h database.cdu0wy4s26zn.ap-south-1.rds.amazonaws.com -u root -p```
 
